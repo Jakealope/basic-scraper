@@ -118,7 +118,6 @@ def extract_score_data(elem):
     return data
 
 
-
 if __name__ == '__main__':
     kwargs = {
         'Inspection_Start': '2/1/2013',
