@@ -134,4 +134,4 @@ if __name__ == '__main__':
     for listing in listings[:5]:
         metadata = extract_restaurant_metadata(listing)
         score_data = extract_score_data(listing)
-        print score_data
+        print score_data, metadata
